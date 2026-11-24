@@ -1,0 +1,7 @@
+{
+  "name": "BounceBack.K01.Editor",
+  "rootNamespace": "BounceBack.K01",
+  "references": ["BounceBack.GeometryWorld"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

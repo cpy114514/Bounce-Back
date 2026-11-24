@@ -1,0 +1,15 @@
+Menu cloud models
+
+Low Poly Cloud by Louto
+Source https://poly.pizza/m/3BsoouWatQ
+Creative Commons Attribution 3.0 Unported
+License https://creativecommons.org/licenses/by/3.0/
+Adapted for Bounce Back Valley by recentering and resizing the mesh,
+using flat normals, and replacing its material.
+
+Cloud by Quaternius
+Source https://poly.pizza/m/F6DzCxDz6I
+CC0 1.0 Universal
+License https://creativecommons.org/publicdomain/zero/1.0/
+Adapted for Bounce Back Valley by recentering and resizing the mesh,
+using flat normals, and replacing its material.

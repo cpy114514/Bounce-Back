@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5786594392115250848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5106998053008606343}
+  m_Layer: 0
+  m_Name: BReleaseTower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5106998053008606343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786594392115250848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9178489760233186416}
+  - {fileID: 1446939629046643360}
+  - {fileID: 152840652986340864}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &700876704850371445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5106998053008606343}
+    m_Modifications:
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128154286275314737, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+      propertyPath: m_Name
+      value: BReleaseTower_BellTower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+--- !u!4 &152840652986340864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 839072944868996469, guid: ae83a0e6fd5d53d47acb3cddab7b0bc8, type: 3}
+  m_PrefabInstance: {fileID: 700876704850371445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6180890988277926331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5106998053008606343}
+    m_Modifications:
+    - target: {fileID: 292320724104651132, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_Name
+      value: BReleaseTower_Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+--- !u!4 &1446939629046643360 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4742959417756660507, guid: 9aff04b8722328a47bc702139aebc106, type: 3}
+  m_PrefabInstance: {fileID: 6180890988277926331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6466854914285612698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5106998053008606343}
+    m_Modifications:
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702627182146285956, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+      propertyPath: m_Name
+      value: BReleaseTower_Body
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+--- !u!4 &9178489760233186416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2800792045717408490, guid: 3a4bf6801921bae4ab924c3024c32d6e, type: 3}
+  m_PrefabInstance: {fileID: 6466854914285612698}
+  m_PrefabAsset: {fileID: 0}

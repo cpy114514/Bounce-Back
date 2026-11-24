@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29dfcc24bebc4b0283cd3054ce4f1bc2, type: 3}
+  m_Name: Build Catalog
+  m_EditorClassIdentifier: BounceBack.GeometryWorld::BounceBack.GeometryWorld.RuntimeBuildCatalog
+  items:
+  - id: Block
+    label: Block
+    gadget: 0
+    prefab: {fileID: 1378910538591274891, guid: a08f7546bc73f924bac035042eeef0c7, type: 3}
+  - id: Platform
+    label: Platform
+    gadget: 0
+    prefab: {fileID: 5674450637222009429, guid: a8586a45a551b5f409457dede96eb143, type: 3}
+  - id: Ramp
+    label: Ramp
+    gadget: 0
+    prefab: {fileID: 1272726276306799273, guid: b41911867c7d2964898cc9109bb7319f, type: 3}
+  - id: Column
+    label: Column
+    gadget: 0
+    prefab: {fileID: 5658850165427198995, guid: 788c0d871eb404142b1dd57d01a5e1c5, type: 3}
+  - id: Cylinder
+    label: Cylinder
+    gadget: 0
+    prefab: {fileID: 2289630212622668355, guid: 63ff0f776863ac643b7302f369a43963, type: 3}
+  - id: Sphere
+    label: Sphere
+    gadget: 0
+    prefab: {fileID: 1173373896562143827, guid: 4390f64c75cf5ce46b89e3dcc8509b25, type: 3}
+  - id: Elastic Object
+    label: Slime
+    gadget: 1
+    prefab: {fileID: 1198117411472431020, guid: ed83f50cdffa6f14bbd6a49988c44d37, type: 3}
+  - id: Bounce Pad
+    label: Bounce Pad
+    gadget: 1
+    prefab: {fileID: 4337587395255244616, guid: 893bf2084f6f4c44ea26f3fe56f934d3, type: 3}
+  - id: Goal
+    label: Goal
+    gadget: 1
+    prefab: {fileID: 1351168142664624612, guid: 61bdba869f787254498cd1249aaa2e89, type: 3}
+  - id: Switch
+    label: Switch
+    gadget: 1
+    prefab: {fileID: 2875157978909153315, guid: f408ee7a9df6d764280de43cde037676, type: 3}
+  - id: Moving Platform
+    label: Mover
+    gadget: 1
+    prefab: {fileID: 4187110144131957130, guid: 415b40c5394c8d0459a204bebd0e3c7b, type: 3}
+  - id: Rotating Platform
+    label: Turntable
+    gadget: 1
+    prefab: {fileID: 7021426395667767032, guid: 3b6dfb92f4df4e548864c30b27c23259, type: 3}
+  - id: Trigger
+    label: Trigger
+    gadget: 1
+    prefab: {fileID: 2856187625266132038, guid: 9d378fb4278b3aa4aa30b8b946cdf1fa, type: 3}
+  - id: Checkpoint
+    label: Checkpoint
+    gadget: 1
+    prefab: {fileID: 7831753716051305831, guid: e4fdb3df1ca41e7458feba3736b350b0, type: 3}
+  - id: Reset Zone
+    label: Reset
+    gadget: 1
+    prefab: {fileID: 5677151440427635476, guid: b660c003b54d04a4695cea2be747e01e, type: 3}
+  - id: Anchor
+    label: Anchor
+    gadget: 1
+    prefab: {fileID: 3501196401103769791, guid: 4d5cf2a5e19b27a458ed4dae673b8cdb, type: 3}

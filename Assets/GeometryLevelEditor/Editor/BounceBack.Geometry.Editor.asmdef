@@ -1,0 +1,6 @@
+{
+    "name": "BounceBack.Geometry.Editor",
+    "rootNamespace": "BounceBack.Geometry.Editor",
+    "references": ["BounceBack.Geometry"],
+    "includePlatforms": ["Editor"]
+}

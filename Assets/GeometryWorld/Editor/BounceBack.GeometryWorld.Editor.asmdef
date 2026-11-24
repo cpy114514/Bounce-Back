@@ -1,0 +1,6 @@
+{
+    "name": "BounceBack.GeometryWorld.Editor",
+    "rootNamespace": "BounceBack.GeometryWorld.Editor",
+    "references": ["BounceBack.GeometryWorld", "BounceBack.Geometry", "BounceBack.Geometry.Editor", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+    "includePlatforms": ["Editor"]
+}

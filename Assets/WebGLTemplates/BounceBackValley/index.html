@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <style>
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #c3d5d4; }
+    canvas { display: block; width: 100%; height: 100%; outline: none; touch-action: none; }
+    #loading {
+      position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);
+      width: min(18rem, 75vw); color: #263838; text-align: center;
+      font: 1.1rem Georgia, serif; pointer-events: none;
+    }
+    progress { display: block; width: 100%; height: .2rem; margin-top: 1.2rem; accent-color: #794431; }
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" tabindex="0" aria-label="{{{ PRODUCT_NAME }}} game"></canvas>
+  <div id="loading" role="status">
+    <span>Loading {{{ PRODUCT_NAME }}}</span>
+    <progress value="0" max="1" aria-label="Loading progress"></progress>
+  </div>
+  <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+  <script>
+    const canvas = document.getElementById("unity-canvas");
+    const loading = document.getElementById("loading");
+    const progress = loading.querySelector("progress");
+
+    canvas.addEventListener("keydown", event => {
+      if (event.key === "Tab") event.preventDefault();
+    });
+
+    createUnityInstance(canvas, {
+      dataUrl: "Build/{{{ DATA_FILENAME }}}",
+      frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_THREADS
+      workerUrl: "Build/{{{ WORKER_FILENAME }}}",
+#endif
+#if USE_WASM
+      codeUrl: "Build/{{{ CODE_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+      symbolsUrl: "Build/{{{ SYMBOLS_FILENAME }}}",
+#endif
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+      productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+      productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+      devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5)
+    }, ratio => { progress.value = ratio; }).then(() => {
+      loading.hidden = true;
+    }).catch(error => {
+      console.error(error);
+      progress.hidden = true;
+      loading.querySelector("span").textContent = `${document.title} could not start. Reload to try again.`;
+    });
+  </script>
+</body>
+</html>

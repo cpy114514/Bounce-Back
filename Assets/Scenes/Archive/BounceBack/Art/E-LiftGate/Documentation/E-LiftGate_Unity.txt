@@ -1,0 +1,14 @@
+LiftGate_Shutter import localRot=(270.02, 0.00, 0.00) scale=(100.00, 100.00, 100.00)
+LiftGate_FrameLintel import localRot=(270.02, 0.00, 0.00) scale=(100.00, 100.00, 100.00)
+LiftGate_FramePiers import localRot=(270.02, 0.00, 0.00) scale=(100.00, 100.00, 100.00)
+shutterLocalMin=(-1.30, -0.62, -0.15)
+shutterLocalMax=(1.30, 0.63, 0.15)
+maxExcessOutsideCollisionM=0.00200
+triangles shutter=288 frame=1476 total=1764
+materials=MV_Apricot, MV_DomeBlue, MV_Ivory, MV_Mint
+wrote E-LiftGate_Official_Aligned.png
+wrote E-LiftGate_Pattern_Aligned.png
+wrote E-LiftGate_Goal_Lookback.png
+wrote E-LiftGate_Official_Offset.png
+wrote E-LiftGate_Pattern_Offset.png
+originalScene=Assets/Scenes/Archive/BounceBackSystems/Santorini Gameplay.unity dirtyBefore=False dirtyAfter=False

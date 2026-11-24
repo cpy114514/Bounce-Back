@@ -1,0 +1,7 @@
+{
+    "name": "BounceBack.GeometryWorld.EditModeTests",
+    "rootNamespace": "BounceBack.GeometryWorld.Tests",
+    "references": ["BounceBack.GeometryWorld", "BounceBack.GeometryWorld.Editor", "BounceBack.Geometry", "BounceBack.Geometry.Editor"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"]
+}

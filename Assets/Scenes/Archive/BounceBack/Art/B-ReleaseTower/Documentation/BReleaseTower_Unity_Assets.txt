@@ -1,0 +1,17 @@
+B-ReleaseTower Unity asset validation
+Prefab outer wrapper: local position/rotation zero; scale one. FBX conversion remains internal.
+Tower core bounds error: 0.000000 m
+Launch Coping bounds error: 0.000000 m
+Rail maximum above Y=4.45: 0.330000 m
+Bell world bounds: min=(-7.28, 4.45, -4.58); max=(-6.54, 8.14, -4.08)
+Colliders: 0; scripts: 0; external textures: 0
+BReleaseTower_Body/Body_Collision_Aligned_Core: triangles=12; slots=1; materials=MV_Ivory
+BReleaseTower_Body/Body_Three_Stage_Facade: triangles=1248; slots=4; materials=MV_Rose,MV_Apricot,MV_Ivory,MV_DomeBlue
+BReleaseTower_Body: module triangles=1260
+BReleaseTower_Platform/Launch_Coping_Aligned: triangles=36; slots=3; materials=MV_Rose,MV_Apricot,MV_Ivory
+BReleaseTower_Platform/Platform_Broken_Railings: triangles=216; slots=2; materials=MV_Ivory,MV_Apricot
+BReleaseTower_Platform: module triangles=252
+BReleaseTower_BellTower/Bell_Pavilion_Dome_And_Flag: triangles=1088; slots=4; materials=MV_Ivory,MV_Apricot,MV_DomeBlue,MV_Lilac
+BReleaseTower_BellTower: module triangles=1088
+Total delivery triangles: 2600
+RESULT=PASS

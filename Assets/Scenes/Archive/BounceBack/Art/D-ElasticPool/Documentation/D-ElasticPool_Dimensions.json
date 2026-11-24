@@ -1,0 +1,140 @@
+{
+  "task": "D-ElasticPool",
+  "units": "metres",
+  "axes": "Unity X east, Y up, Z north",
+  "anchor_world": [
+    -1.4,
+    0.45,
+    2.05
+  ],
+  "pivot": "Water-surface centre. Prefab root rotation must stay (0,0,0); Blender-to-Unity axis conversion lives on the imported child.",
+  "collision": {
+    "name": "Elastic Pool Surface",
+    "center_world": [
+      -1.4,
+      0.24000000000000002,
+      2.05
+    ],
+    "size": [
+      3.25,
+      0.42,
+      3.65
+    ],
+    "min_world": [
+      -3.025,
+      0.030000000000000027,
+      0.22499999999999987
+    ],
+    "max_world": [
+      0.2250000000000001,
+      0.45,
+      3.875
+    ]
+  },
+  "rim": {
+    "top_y": 0.49,
+    "width_m": 0.25,
+    "inner_edge": "Exactly the four vertical faces of Elastic Pool Surface",
+    "north_edge_max_y_between_piers": 0.505,
+    "finial_apex_y": 0.55
+  },
+  "steps": {
+    "upper_tread_y": 0.18,
+    "upper_outer_offset_m": 0.5,
+    "lower_tread_y": -0.02,
+    "lower_bottom_y": -0.22,
+    "lower_outer_offset_m": 0.74
+  },
+  "floor": {
+    "grout_top_y": 0.030000000000000027,
+    "relief_max_y": 0.0495,
+    "relief_above_collision_bottom_m": 0.019499999999999976
+  },
+  "water_surface_for_task_G": {
+    "included_in_this_module": false,
+    "center_world": [
+      -1.4,
+      0.45,
+      2.05
+    ],
+    "y": 0.45,
+    "size_x": 3.25,
+    "size_z": 3.65,
+    "min_world": [
+      -3.025,
+      0.45,
+      0.22499999999999987
+    ],
+    "max_world": [
+      0.2250000000000001,
+      0.45,
+      3.875
+    ],
+    "local_to_prefab": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -1.625,
+        0.0,
+        -1.825
+      ],
+      "max": [
+        1.625,
+        0.0,
+        1.8250000000000002
+      ]
+    },
+    "note": "A horizontal rectangle. Its edges meet the vertical inner walls, so the two surfaces share a boundary edge and do not z-fight. Do not raise it above y 0.45."
+  },
+  "bounds_world": {
+    "min": [
+      -3.7649999999999997,
+      -0.22,
+      -0.5150000000000001
+    ],
+    "max": [
+      0.9650000000000001,
+      0.55,
+      4.615
+    ]
+  },
+  "vertices": 572,
+  "triangles": 852,
+  "material_slots": [
+    "MV_Ivory",
+    "MV_Apricot",
+    "MV_DomeBlue",
+    "MV_Rose"
+  ],
+  "plane_errors_m": {
+    "south_inner_z": 0.0,
+    "north_inner_z": 0.0,
+    "east_inner_x": 0.0,
+    "west_inner_x": 0.0,
+    "samples": {
+      "south": 24,
+      "east": 12,
+      "north": 24,
+      "west": 12
+    },
+    "authored_shell_m": {
+      "Basin Wall South": 0.0,
+      "Coping South": 0.0,
+      "Basin Wall North": 0.0,
+      "Coping North": 0.0,
+      "Basin Wall East": 0.0,
+      "Coping East": 0.0,
+      "Basin Wall West": 0.0,
+      "Coping West": 0.0
+    },
+    "coping_width_error_m": 0.0
+  },
+  "collider_overlaps_beyond_2cm": [],
+  "visual_only": true,
+  "source_blend": "ArtSource/Prototypes/D-ElasticPool/D-ElasticPool.blend",
+  "rebuild_script": "ArtSource/Prototypes/D-ElasticPool/build_d_elastic_pool.py",
+  "fbx": "Assets/Scenes/Archive/BounceBack/Art/D-ElasticPool/FBX/D-ElasticPool.fbx"
+}

@@ -1,0 +1,78 @@
+{
+  "asset": "WaterfallOutlet",
+  "units": "metres",
+  "unity_axes": "X across; +Y up; +Z outflow",
+  "shared_origin_unity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "origin_definition": "Centre of the water tongue top attachment edge, coincident with the stone front-top lip",
+  "nominal_width_m": 1.6,
+  "visual_only": true,
+  "contains_colliders": false,
+  "external_textures": [],
+  "source_blend": "ArtSource/Kimi/WaterfallOutlet/WaterfallOutlet.blend",
+  "rebuild_script": "ArtSource/Kimi/WaterfallOutlet/build_waterfall_outlet.py",
+  "stone": {
+    "fbx": "FBX/WaterfallOutlet_Stone_Eave.fbx",
+    "bounds_min_unity": [
+      -0.800000011920929,
+      -0.30000001192092896,
+      -0.7599999904632568
+    ],
+    "bounds_max_unity": [
+      0.800000011920929,
+      0.0,
+      0.0
+    ],
+    "dimensions_unity": [
+      1.600000023841858,
+      0.30000001192092896,
+      0.7599999904632568
+    ],
+    "vertices": 22,
+    "triangles": 40,
+    "closed_manifold": true,
+    "materials": [
+      "Waterfall_White_Stone",
+      "Waterfall_White_Stone_Underside"
+    ]
+  },
+  "water": {
+    "fbx": "FBX/WaterfallOutlet_Water_Tongue.fbx",
+    "bounds_min_unity": [
+      -0.7200000286102295,
+      -2.202958345413208,
+      -0.5400000214576721
+    ],
+    "bounds_max_unity": [
+      0.7200000286102295,
+      0.020499998703598976,
+      0.4390000104904175
+    ],
+    "dimensions_unity": [
+      1.440000057220459,
+      2.223458344116807,
+      0.9790000319480896
+    ],
+    "top_attachment_width_m": 1.44,
+    "drop_from_origin_m": 2.2,
+    "base_thickness_m": 0.026,
+    "foam_ribbons": 3,
+    "vertices": 196,
+    "triangles": 286,
+    "closed_base_before_foam_overlays": true,
+    "materials": [
+      "Waterfall_Pale_Blue",
+      "Waterfall_Pale_Blue_Light_Facet",
+      "Waterfall_Pale_Blue_Shade_Facet",
+      "Waterfall_Sparse_Foam_White"
+    ]
+  },
+  "assembly_fbx": "FBX/WaterfallOutlet_Assembly.fbx",
+  "previews": [
+    "Preview/WaterfallOutlet_Isometric.png",
+    "Preview/WaterfallOutlet_Lip_Detail.png"
+  ]
+}

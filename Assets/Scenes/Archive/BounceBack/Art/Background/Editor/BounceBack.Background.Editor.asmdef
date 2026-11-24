@@ -1,0 +1,7 @@
+{
+  "name": "BounceBack.Background.Editor",
+  "rootNamespace": "BounceBack.Background.Editor",
+  "references": [],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": false
+}

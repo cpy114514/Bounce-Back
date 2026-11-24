@@ -1,0 +1,101 @@
+{
+  "piston_source": "ArtSource\\Architectural Piston.blend",
+  "piston_materials_at_inspection": [
+    {
+      "name": "Apricot carving",
+      "base_color": [
+        0.8100000023841858,
+        0.4699999988079071,
+        0.28999999165534973,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295
+    },
+    {
+      "name": "Ivory limestone",
+      "base_color": [
+        0.9399999976158142,
+        0.7900000214576721,
+        0.6200000047683716,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295
+    },
+    {
+      "name": "Lilac shadow band",
+      "base_color": [
+        0.4699999988079071,
+        0.4000000059604645,
+        0.6200000047683716,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295
+    },
+    {
+      "name": "Mint glazed ram",
+      "base_color": [
+        0.25999999046325684,
+        0.5699999928474426,
+        0.4300000071525574,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295
+    },
+    {
+      "name": "Rose foundation",
+      "base_color": [
+        0.6700000166893005,
+        0.3400000035762787,
+        0.38999998569488525,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295
+    }
+  ],
+  "piston_has_requested_white_cobalt_brass_slots": false,
+  "white_cobalt_reference": [
+    "Assets\\Scenes\\BounceBack\\Art\\K-07\\Materials\\K07_White_Limestone.mat",
+    "Assets\\Scenes\\BounceBack\\Art\\K-07\\Materials\\K07_Cobalt_Blue.mat"
+  ],
+  "selected_palette": {
+    "white_stone": {
+      "name": "K07_White_Limestone",
+      "base_color": [
+        0.91,
+        0.885,
+        0.8,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.82
+    },
+    "cobalt_blue": {
+      "name": "K07_Cobalt_Blue",
+      "base_color": [
+        0.025,
+        0.105,
+        0.52,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.56
+    },
+    "brass": {
+      "name": "K02 muted brass (project gold hue, reduced brightness)",
+      "base_color": [
+        0.59,
+        0.38,
+        0.13,
+        1.0
+      ],
+      "metallic": 0.72,
+      "roughness": 0.38
+    }
+  },
+  "note_zh": "旧活塞源文件仍为粉彩材质。按本次明确要求，白石与钴蓝沿用 K-07，黄铜使用压暗金色；未修改旧活塞。"
+}

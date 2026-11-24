@@ -1,0 +1,11 @@
+{
+  "name": "BounceBack.DElasticPool.Editor",
+  "rootNamespace": "BounceBack.DElasticPool",
+  "references": [
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": false
+}

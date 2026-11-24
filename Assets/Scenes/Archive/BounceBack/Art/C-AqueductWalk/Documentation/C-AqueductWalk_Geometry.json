@@ -1,0 +1,118 @@
+{
+  "task": "C-AqueductWalk",
+  "source_blend": "ArtSource/Prototypes/C-AqueductWalk/C-AqueductWalk.blend",
+  "rebuild_script": "ArtSource/Prototypes/C-AqueductWalk/build_c_aqueduct_walk.py",
+  "fbx": "Assets/Scenes/Archive/BounceBack/Art/C-AqueductWalk/FBX/C-AqueductWalk.fbx",
+  "collision_layout": "ArtSource/Santorini Layout/Santorini Collision Layout.json",
+  "anchor_unity_world": [
+    -3.200000047683716,
+    4.269999980926514,
+    -2.0999999046325684
+  ],
+  "pivot": "turn centre at ramp top Y=4.27; root rotation zero",
+  "units": "metres; Unity +Y up, +Z forward",
+  "bounds_world": {
+    "min": [
+      -4.782960891723633,
+      -0.2199997901916504,
+      -4.600330829620361
+    ],
+    "max": [
+      -0.6911165714263916,
+      5.0199995040893555,
+      0.019205570220947266
+    ]
+  },
+  "dimensions_m": [
+    4.091844320297241,
+    5.239999294281006,
+    4.619536399841309
+  ],
+  "material_slots": [
+    "MV_Ivory",
+    "MV_IvoryShade",
+    "MV_Lilac",
+    "MV_Apricot"
+  ],
+  "material_srgb": {
+    "MV_Ivory": [
+      0.95,
+      0.88,
+      0.77
+    ],
+    "MV_IvoryShade": [
+      0.86,
+      0.76,
+      0.7
+    ],
+    "MV_Lilac": [
+      0.5,
+      0.45,
+      0.66
+    ],
+    "MV_Apricot": [
+      0.9,
+      0.58,
+      0.37
+    ]
+  },
+  "mesh_parts": {
+    "C-AqueductWalk_Deck": {
+      "vertices": 173,
+      "triangles": 342,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "C-AqueductWalk_Parapet": {
+      "vertices": 566,
+      "triangles": 1020,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "C-AqueductWalk_Arcade": {
+      "vertices": 800,
+      "triangles": 1380,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "C-AqueductWalk_Donkey_Stairs": {
+      "vertices": 544,
+      "triangles": 816,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "total_triangles": 3558,
+  "arch_bays": 6,
+  "dome_posts": 6,
+  "stair_band": {
+    "width_m": 0.5,
+    "collision_gap_m": 0.05,
+    "below_road_m": 0.12,
+    "last_step_world_z": -0.28
+  },
+  "support": {
+    "ground_y": -0.22,
+    "last_support_world_z": -0.25
+  },
+  "alignment": {
+    "max_deck_top_corner_error_m": 0.005186557769775391,
+    "max_external_deck_vertex_error_m": 1.803594642524331e-07,
+    "max_parapet_corner_error_m": 0.0,
+    "max_external_parapet_wall_vertex_error_m": 0.0,
+    "tolerance_m": 0.02,
+    "note": "External deck vertices are measured against all original collision faces; boolean-union-buried overlap interiors are excluded."
+  },
+  "launch_clearance": {
+    "pool_target": [
+      -1.4,
+      0.45,
+      2.05
+    ],
+    "max_art_world_z": 0.019205570220947266,
+    "clear_beyond_z": 0.025
+  },
+  "contains_colliders": false,
+  "contains_scripts": false,
+  "external_textures": []
+}

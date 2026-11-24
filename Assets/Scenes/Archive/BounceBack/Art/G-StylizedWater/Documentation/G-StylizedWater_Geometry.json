@@ -1,0 +1,108 @@
+{
+  "task": "G-StylizedWater",
+  "source_blend": "ArtSource/Prototypes/G-StylizedWater/G-StylizedWater.blend",
+  "rebuild_script": "ArtSource/Prototypes/G-StylizedWater/build_g_stylized_water.py",
+  "fbx": "Assets/Scenes/Archive/BounceBack/Art/G-StylizedWater/FBX/G-StylizedWater.fbx",
+  "units": "metres; Unity +Y up, +Z forward",
+  "pool": {
+    "prefab_anchor_unity": [
+      0,
+      0,
+      0
+    ],
+    "anchor_name": "Courtyard and Water Art",
+    "center_unity": [
+      -1.4,
+      0.45,
+      2.05
+    ],
+    "size_xz_m": [
+      3.25,
+      3.65
+    ],
+    "flat_surface_y": 0.45,
+    "maximum_wave_downward_m": 0.018,
+    "rest_plane_error_m": 0.0,
+    "collision_item": "Elastic Pool Surface"
+  },
+  "waterfall": {
+    "prefab_anchor_unity": [
+      5.72,
+      0.43,
+      5.24
+    ],
+    "anchor_name": "Waterfall Slot",
+    "root_rotation_euler": [
+      0,
+      0,
+      0
+    ],
+    "outward_local_axis": "+X",
+    "width_m": 1.6,
+    "drop_m": 10.0,
+    "mist_card_count": 3,
+    "slot_origin_error_m": 0.0,
+    "contains_particle_system": false
+  },
+  "mesh_parts": {
+    "G_PoolSurface": {
+      "vertices": 1221,
+      "triangles": 2304,
+      "material_slots": 1,
+      "bounds_local_unity": {
+        "min": [
+          -3.0250000953674316,
+          0.44999998807907104,
+          0.22499990463256836
+        ],
+        "max": [
+          0.2250000238418579,
+          0.44999998807907104,
+          3.875
+        ]
+      },
+      "external_textures": [],
+      "contains_colliders": false
+    },
+    "G_WaterfallRibbon": {
+      "vertices": 369,
+      "triangles": 640,
+      "material_slots": 1,
+      "bounds_local_unity": {
+        "min": [
+          0.0,
+          -10.0,
+          -0.8479999899864197
+        ],
+        "max": [
+          0.2839999496936798,
+          0.0,
+          0.8479999899864197
+        ]
+      },
+      "external_textures": [],
+      "contains_colliders": false
+    },
+    "G_WaterfallMist": {
+      "vertices": 12,
+      "triangles": 6,
+      "material_slots": 1,
+      "bounds_local_unity": {
+        "min": [
+          -0.8200000524520874,
+          -10.380000114440918,
+          -1.7000000476837158
+        ],
+        "max": [
+          1.5800000429153442,
+          -8.980000495910645,
+          1.7000000476837158
+        ]
+      },
+      "external_textures": [],
+      "contains_colliders": false
+    }
+  },
+  "total_triangles": 2950,
+  "animation": "Shader time only. No baked animation, Compute, screen texture or depth texture."
+}

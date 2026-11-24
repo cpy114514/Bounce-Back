@@ -1,0 +1,6 @@
+{
+    "name": "BounceBack.GeometryWorld.PlayModeTests",
+    "rootNamespace": "BounceBack.GeometryWorld.Tests",
+    "references": ["BounceBack.GeometryWorld", "Unity.InputSystem"],
+    "optionalUnityReferences": ["TestAssemblies"]
+}

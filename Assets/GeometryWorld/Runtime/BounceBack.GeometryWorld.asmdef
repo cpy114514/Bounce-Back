@@ -1,0 +1,5 @@
+{
+    "name": "BounceBack.GeometryWorld",
+    "rootNamespace": "BounceBack.GeometryWorld",
+    "references": ["BounceBack.Geometry", "Unity.InputSystem"]
+}

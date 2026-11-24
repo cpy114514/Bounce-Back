@@ -13,6 +13,7 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+/.plastic/
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -112,3 +113,35 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local assistant settings and handoff notes
+/.codex/
+/.kimi/
+/.mcp.json
+/AGENTS.md
+/CODEX_HANDOFF.md
+/KIMI_HANDOFF.md
+/KIMI_TASKS.md
+/KIMI_PROMPTS/
+/ART_PASS_PROMPTS.md
+/ProjectSettings/Packages/com.unity.ai.assistant/
+
+# Local QA output and Unity Test Runner reports
+/TESTING.md
+/[Tt]est[Rr]esults/
+/[Tt]est[Rr]esult*.xml
+/[Ee]dit[Mm]ode[Rr]esults*.xml
+/[Pp]lay[Mm]ode[Rr]esults*.xml
+/ArtSource/Prototypes/*/qa/
+/ArtSource/Prototypes/*/mesh_report.json
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_QA_Report.txt*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_Mesh_Report.json*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_PlayTests.xml*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_Validation.*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_UnityValidation.txt*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_Source_Audit.json*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_Performance.json*
+/Assets/Scenes/Archive/BounceBack/Art/*/Documentation/*_PresentedProfiler.json*
+/Assets/Scenes/Archive/BounceBack/Art/*/Preview/*.png
+/Assets/Scenes/Archive/BounceBack/Art/*/Preview/*.png.meta
+/Assets/Scenes/Archive/BounceBack/Art/Background/Preview/Santorini Backdrop Visibility.txt*

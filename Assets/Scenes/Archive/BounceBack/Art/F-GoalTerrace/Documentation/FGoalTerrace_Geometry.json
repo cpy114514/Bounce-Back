@@ -1,0 +1,538 @@
+{
+  "task": "F-GoalTerrace",
+  "source_blend": "ArtSource/Prototypes/F-GoalTerrace/F-GoalTerrace.blend",
+  "rebuild_script": "ArtSource/Prototypes/F-GoalTerrace/build_f_goal_terrace.py",
+  "unity_build_script": "ArtSource/Prototypes/F-GoalTerrace/unity_build_preview.cs",
+  "collision_layout": "ArtSource/Santorini Layout/Santorini Collision Layout.json",
+  "anchor_unity_world": [
+    4.900000095367432,
+    0.8299999833106995,
+    4.099999904632568
+  ],
+  "pivot": "Goal Terrace Art anchor; all five module roots and the combined Prefab use zero local offset/rotation",
+  "units": "metres; Unity +Y up, +Z forward",
+  "material_srgb": {
+    "MV_Ivory": [
+      0.95,
+      0.88,
+      0.77
+    ],
+    "MV_IvoryShade": [
+      0.86,
+      0.76,
+      0.7
+    ],
+    "MV_Rose": [
+      0.74,
+      0.45,
+      0.47
+    ],
+    "MV_Lilac": [
+      0.5,
+      0.45,
+      0.66
+    ],
+    "MV_Apricot": [
+      0.9,
+      0.58,
+      0.37
+    ],
+    "MV_DomeBlue": [
+      0.3,
+      0.47,
+      0.8
+    ],
+    "MV_Water": [
+      0.45,
+      0.8,
+      0.84
+    ],
+    "MV_Gold": [
+      0.96,
+      0.7,
+      0.32
+    ]
+  },
+  "contains_colliders": false,
+  "contains_scripts": false,
+  "external_textures": [],
+  "modules": {
+    "FGoalTerrace_Terrace": {
+      "fbx": "FBX/FGoalTerrace_Terrace.fbx",
+      "meshes": {
+        "Terrace_Collision_Aligned_Core": {
+          "vertices": 8,
+          "triangles": 12,
+          "material_slots": 2,
+          "bounds_local_min": [
+            -4.300000190734863,
+            -0.5299999713897705,
+            -1.2050001621246338
+          ],
+          "bounds_local_max": [
+            -0.9000000953674316,
+            0.1300000548362732,
+            2.445000171661377
+          ],
+          "bounds_world_min": [
+            0.5999999046325684,
+            0.30000001192092896,
+            2.8949997425079346
+          ],
+          "bounds_world_max": [
+            4.0,
+            0.9600000381469727,
+            6.545000076293945
+          ],
+          "dimensions_world": [
+            3.4000000953674316,
+            0.6600000262260437,
+            3.6500003337860107
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        },
+        "Terrace_Two_Stage_Arcade": {
+          "vertices": 1348,
+          "triangles": 2112,
+          "material_slots": 3,
+          "bounds_local_min": [
+            -4.318000316619873,
+            -0.4724999964237213,
+            -1.2230000495910645
+          ],
+          "bounds_local_max": [
+            -0.8819999694824219,
+            0.12000000476837158,
+            2.445000171661377
+          ],
+          "bounds_world_min": [
+            0.5819997787475586,
+            0.35749998688697815,
+            2.876999855041504
+          ],
+          "bounds_world_max": [
+            4.01800012588501,
+            0.949999988079071,
+            6.545000076293945
+          ],
+          "dimensions_world": [
+            3.436000347137451,
+            0.5925000011920929,
+            3.6680002212524414
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        }
+      },
+      "triangles": 2124,
+      "bounds_world_min": [
+        0.5819997787475586,
+        0.30000001192092896,
+        2.876999855041504
+      ],
+      "bounds_world_max": [
+        4.01800012588501,
+        0.9600000381469727,
+        6.545000076293945
+      ],
+      "dimensions_world": [
+        3.436000347137451,
+        0.6600000262260437,
+        3.6680002212524414
+      ]
+    },
+    "FGoalTerrace_Cascade": {
+      "fbx": "FBX/FGoalTerrace_Cascade.fbx",
+      "meshes": {
+        "Cascade_Lip_Collision_Aligned": {
+          "vertices": 8,
+          "triangles": 12,
+          "material_slots": 3,
+          "bounds_local_min": [
+            -1.0206866264343262,
+            -0.37853437662124634,
+            -0.40000033378601074
+          ],
+          "bounds_local_max": [
+            -0.4100003242492676,
+            0.1300000548362732,
+            2.679999828338623
+          ],
+          "bounds_world_min": [
+            3.8793134689331055,
+            0.4514656066894531,
+            3.6999995708465576
+          ],
+          "bounds_world_max": [
+            4.489999771118164,
+            0.9600000381469727,
+            6.779999732971191
+          ],
+          "dimensions_world": [
+            0.6106863021850586,
+            0.5085344314575195,
+            3.080000162124634
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        },
+        "Cascade_Floor_Collision_Aligned": {
+          "vertices": 8,
+          "triangles": 12,
+          "material_slots": 2,
+          "bounds_local_min": [
+            -0.4099998474121094,
+            -0.5699999928474426,
+            -0.40000009536743164
+          ],
+          "bounds_local_max": [
+            0.7100000381469727,
+            -0.050000011920928955,
+            2.679999828338623
+          ],
+          "bounds_world_min": [
+            4.490000247955322,
+            0.25999999046325684,
+            3.6999998092651367
+          ],
+          "bounds_world_max": [
+            5.610000133514404,
+            0.7799999713897705,
+            6.779999732971191
+          ],
+          "dimensions_world": [
+            1.119999885559082,
+            0.5199999809265137,
+            3.0799999237060547
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        },
+        "Cascade_Apricot_Undercut": {
+          "vertices": 24,
+          "triangles": 36,
+          "material_slots": 3,
+          "bounds_local_min": [
+            -0.4099998474121094,
+            -0.4749999940395355,
+            -0.4159998893737793
+          ],
+          "bounds_local_max": [
+            0.7259998321533203,
+            -0.3649999797344208,
+            2.696000099182129
+          ],
+          "bounds_world_min": [
+            4.490000247955322,
+            0.35499998927116394,
+            3.684000015258789
+          ],
+          "bounds_world_max": [
+            5.625999927520752,
+            0.4650000035762787,
+            6.796000003814697
+          ],
+          "dimensions_world": [
+            1.1359996795654297,
+            0.11000001430511475,
+            3.111999988555908
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        }
+      },
+      "triangles": 60,
+      "bounds_world_min": [
+        3.8793134689331055,
+        0.25999999046325684,
+        3.684000015258789
+      ],
+      "bounds_world_max": [
+        5.625999927520752,
+        0.9600000381469727,
+        6.796000003814697
+      ],
+      "dimensions_world": [
+        1.7466864585876465,
+        0.7000000476837158,
+        3.111999988555908
+      ]
+    },
+    "FGoalTerrace_Pavilion": {
+      "fbx": "FBX/FGoalTerrace_Pavilion.fbx",
+      "meshes": {
+        "Pavilion_Open_Arch_And_Blue_Dome": {
+          "vertices": 610,
+          "triangles": 1000,
+          "material_slots": 4,
+          "bounds_local_min": [
+            -1.0261156558990479,
+            -0.24500000476837158,
+            -0.34999990463256836
+          ],
+          "bounds_local_max": [
+            1.026115894317627,
+            2.2899999618530273,
+            0.6100001335144043
+          ],
+          "bounds_world_min": [
+            3.873884439468384,
+            0.5849999785423279,
+            3.75
+          ],
+          "bounds_world_max": [
+            5.926115989685059,
+            3.119999885559082,
+            4.710000038146973
+          ],
+          "dimensions_world": [
+            2.052231550216675,
+            2.534999907016754,
+            0.9600000381469727
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        }
+      },
+      "triangles": 1000,
+      "bounds_world_min": [
+        3.873884439468384,
+        0.5849999785423279,
+        3.75
+      ],
+      "bounds_world_max": [
+        5.926115989685059,
+        3.119999885559082,
+        4.710000038146973
+      ],
+      "dimensions_world": [
+        2.052231550216675,
+        2.534999907016754,
+        0.9600000381469727
+      ]
+    },
+    "FGoalTerrace_Railing": {
+      "fbx": "FBX/FGoalTerrace_Railing.fbx",
+      "meshes": {
+        "Railing_Short_North_And_Empty_Plinths": {
+          "vertices": 128,
+          "triangles": 192,
+          "material_slots": 3,
+          "bounds_local_min": [
+            -4.190000057220459,
+            0.12999999523162842,
+            1.929999828338623
+          ],
+          "bounds_local_max": [
+            -2.0900001525878906,
+            0.6299999356269836,
+            2.4200000762939453
+          ],
+          "bounds_world_min": [
+            0.7100000381469727,
+            0.9599999785423279,
+            6.029999732971191
+          ],
+          "bounds_world_max": [
+            2.809999942779541,
+            1.459999918937683,
+            6.519999980926514
+          ],
+          "dimensions_world": [
+            2.0999999046325684,
+            0.4999999403953552,
+            0.49000024795532227
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        }
+      },
+      "triangles": 192,
+      "bounds_world_min": [
+        0.7100000381469727,
+        0.9599999785423279,
+        6.029999732971191
+      ],
+      "bounds_world_max": [
+        2.809999942779541,
+        1.459999918937683,
+        6.519999980926514
+      ],
+      "dimensions_world": [
+        2.0999999046325684,
+        0.4999999403953552,
+        0.49000024795532227
+      ]
+    },
+    "FGoalTerrace_Waterfall": {
+      "fbx": "FBX/FGoalTerrace_Waterfall.fbx",
+      "meshes": {
+        "Waterfall_Reused_Eave_And_Arch": {
+          "vertices": 174,
+          "triangles": 268,
+          "material_slots": 3,
+          "bounds_local_min": [
+            0.059999942779541016,
+            -0.7899999618530273,
+            -0.019999980926513672
+          ],
+          "bounds_local_max": [
+            1.190000057220459,
+            0.060000061988830566,
+            2.3000001907348633
+          ],
+          "bounds_world_min": [
+            4.960000038146973,
+            0.04000002145767212,
+            4.079999923706055
+          ],
+          "bounds_world_max": [
+            6.090000152587891,
+            0.89000004529953,
+            6.400000095367432
+          ],
+          "dimensions_world": [
+            1.130000114440918,
+            0.8500000238418579,
+            2.320000171661377
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        },
+        "Waterfall_Static_Water_And_Foam": {
+          "vertices": 132,
+          "triangles": 248,
+          "material_slots": 2,
+          "bounds_local_min": [
+            0.7619996070861816,
+            -2.5799999237060547,
+            0.619999885559082
+          ],
+          "bounds_local_max": [
+            1.4079999923706055,
+            -0.3999999761581421,
+            1.6600003242492676
+          ],
+          "bounds_world_min": [
+            5.661999702453613,
+            -1.75,
+            4.71999979019165
+          ],
+          "bounds_world_max": [
+            6.308000087738037,
+            0.4300000071525574,
+            5.760000228881836
+          ],
+          "dimensions_world": [
+            0.6460003852844238,
+            2.1800000071525574,
+            1.0400004386901855
+          ],
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0
+        }
+      },
+      "triangles": 516,
+      "bounds_world_min": [
+        4.960000038146973,
+        -1.75,
+        4.079999923706055
+      ],
+      "bounds_world_max": [
+        6.308000087738037,
+        0.89000004529953,
+        6.400000095367432
+      ],
+      "dimensions_world": [
+        1.3480000495910645,
+        2.64000004529953,
+        2.320000171661377
+      ]
+    }
+  },
+  "alignment": {
+    "tolerance_m": 0.02,
+    "targets": {
+      "Landing Terrace": {
+        "max_corner_to_nearest_mesh_vertex_m": 0.0,
+        "mesh": "Terrace_Collision_Aligned_Core"
+      },
+      "Cascade Lip Ramp": {
+        "max_corner_to_nearest_mesh_vertex_m": 0.0,
+        "mesh": "Cascade_Lip_Collision_Aligned"
+      },
+      "Cascade Pressure Plate Floor": {
+        "max_corner_to_nearest_mesh_vertex_m": 0.0,
+        "mesh": "Cascade_Floor_Collision_Aligned"
+      }
+    },
+    "maximum_facade_projection_m": 0.018,
+    "note": "Collision cores are exact. Niche/cornice relief projects no more than 18 mm and stays off the rolling tops."
+  },
+  "pavilion": {
+    "center_world": [
+      4.900000095367432,
+      0.7799999713897705,
+      4.230000019073486
+    ],
+    "yaw_degrees": -7.214264365844312,
+    "column_center_span_m": 1.71,
+    "clear_opening_width_m": 1.58,
+    "spring_world_y": 1.63,
+    "inner_crown_world_y": 2.42,
+    "clear_height_above_raised_plate_m": 1.64,
+    "dome_top_world_y": 3.04,
+    "finial_top_world_y": 3.12,
+    "role": "Open destination backdrop facing the incoming B point; no assumed through-roll"
+  },
+  "railing": {
+    "north_segment_world_x": [
+      0.72,
+      2.8
+    ],
+    "z": 6.45,
+    "top_world_y": 1.46,
+    "empty_planter_centers": [
+      [
+        0.95,
+        1.02,
+        6.18
+      ],
+      [
+        2.05,
+        1.02,
+        6.2
+      ]
+    ]
+  },
+  "waterfall": {
+    "slot_world": [
+      5.71999979019165,
+      0.4300000071525574,
+      5.239999771118164
+    ],
+    "eave_width_m": 1.04,
+    "arch_front_min_world_x": 5.96,
+    "drop_bottom_world_y": -1.75,
+    "static_water": true
+  },
+  "bounds_world": {
+    "min": [
+      0.5819997787475586,
+      -1.75,
+      2.876999855041504
+    ],
+    "max": [
+      6.308000087738037,
+      3.119999885559082,
+      6.796000003814697
+    ]
+  },
+  "total_triangles": 3892,
+  "preview_scene": "Preview/FGoalTerrace_Preview.unity",
+  "screenshots": [
+    "Preview/FGoalTerrace_Official_1920x1080.png",
+    "Preview/FGoalTerrace_ReverseFromGoal_1920x1080.png"
+  ]
+}

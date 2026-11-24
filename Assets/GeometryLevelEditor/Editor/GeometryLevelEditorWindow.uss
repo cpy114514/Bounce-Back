@@ -1,0 +1,287 @@
+.geometry-editor {
+    flex-grow: 1;
+    background-color: #222631;
+    color: #ecedf5;
+    font-size: 12px;
+}
+
+.geometry-work-area, .geometry-body, .geometry-canvas, .geometry-flex {
+    flex-grow: 1;
+}
+
+.geometry-file-bar, .geometry-tool-bar, .geometry-status {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.geometry-file-bar {
+    height: 41px;
+    background-color: #282d39;
+    border-bottom-width: 1px;
+    border-bottom-color: #383e4c;
+}
+
+.geometry-drawing-field {
+    flex-grow: 1;
+    min-width: 150px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.geometry-drawing-field > .unity-base-field__label {
+    min-width: 51px;
+    width: 51px;
+}
+
+.geometry-tool-bar {
+    height: 38px;
+    background-color: #252a36;
+    border-bottom-width: 1px;
+    border-bottom-color: #383e4c;
+}
+
+.geometry-divider {
+    width: 1px;
+    height: 18px;
+    background-color: #434a59;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.geometry-button {
+    min-height: 23px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #e5e8f3;
+    background-color: #303747;
+    border-color: #40495b;
+    border-radius: 4px;
+    -unity-background-image-tint-color: white;
+    background-image: none;
+}
+
+.geometry-button:hover {
+    background-color: #3c465a;
+    border-color: #59667d;
+}
+
+.geometry-button:focus {
+    border-color: #a393f7;
+}
+
+.geometry-button:disabled {
+    opacity: 0.44;
+}
+
+.geometry-button.geometry-active {
+    color: #f1ebff;
+    background-color: #474064;
+    border-color: #ab9ce9;
+}
+
+.geometry-zoom {
+    min-width: 50px;
+    margin-left: 8px;
+    -unity-text-align: middle-right;
+    color: #c5ccdf;
+}
+
+.geometry-body {
+    flex-direction: row;
+    min-height: 0;
+}
+
+.geometry-canvas {
+    background-color: #171a24;
+    overflow: hidden;
+    min-width: 0;
+    min-height: 0;
+}
+
+.geometry-sidebar {
+    width: 253px;
+    flex-shrink: 0;
+    background-color: #252a36;
+    border-left-width: 1px;
+    border-left-color: #3b4253;
+}
+
+.geometry-settings {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.geometry-section {
+    padding: 7px 11px;
+    border-bottom-width: 1px;
+    border-bottom-color: #393f4e;
+}
+
+.geometry-selection {
+    flex-shrink: 0;
+    border-top-width: 1px;
+    border-top-color: #393f4e;
+    border-bottom-width: 0;
+}
+
+.geometry-section-header {
+    min-height: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.geometry-section-title {
+    font-size: 13px;
+    -unity-font-style: bold;
+    color: #f0f0f8;
+}
+
+.geometry-editor .unity-base-field__label {
+    color: #c9cfe0;
+}
+
+.geometry-sidebar .unity-base-field > .unity-base-field__label {
+    width: 56px;
+    min-width: 56px;
+}
+
+.geometry-sidebar .unity-toggle > .unity-base-field__label {
+    width: auto;
+    min-width: 0;
+}
+
+.geometry-layer-list {
+    margin-bottom: 5px;
+}
+
+.geometry-layer-row, .geometry-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.geometry-layer-row {
+    padding: 2px;
+    margin-bottom: 2px;
+    border-left-width: 2px;
+    border-left-color: transparent;
+    border-radius: 3px;
+}
+
+.geometry-layer-row.geometry-active-layer {
+    background-color: #33364d;
+    border-left-color: #b5a7ff;
+}
+
+.geometry-layer-row > .geometry-button {
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 42px;
+}
+
+.geometry-layer-row > .geometry-layer-name {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -unity-text-align: middle-left;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.geometry-layer-row > .geometry-layer-name:hover,
+.geometry-layer-row > .geometry-layer-name:focus {
+    border-color: #808aa5;
+}
+
+.geometry-row {
+    margin-top: 4px;
+}
+
+.geometry-row > .unity-toggle {
+    margin-right: 14px;
+}
+
+.geometry-swatches {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.geometry-button.geometry-swatch {
+    width: 25px;
+    height: 24px;
+    min-height: 24px;
+    padding: 0;
+    border-width: 2px;
+    border-color: #252a36;
+    margin: 2px;
+}
+
+.geometry-button.geometry-swatch:hover,
+.geometry-button.geometry-swatch:focus,
+.geometry-button.geometry-swatch-selected {
+    border-color: #f1effb;
+}
+
+.geometry-muted, .geometry-status {
+    color: #c3cadf;
+}
+
+.geometry-status {
+    background-color: #252a36;
+    height: 26px;
+    border-top-width: 1px;
+    border-top-color: #393f4e;
+    font-size: 11px;
+}
+
+.geometry-status-message {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.geometry-feedback {
+    color: #a1e8d7;
+}
+
+.geometry-coordinates {
+    margin-left: 8px;
+    min-width: 88px;
+    -unity-text-align: middle-right;
+}
+
+.geometry-empty {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #171a24;
+    color: #c3cadf;
+}
+
+.geometry-empty-title {
+    font-size: 23px;
+    -unity-font-style: bold;
+    color: #f2efff;
+    margin-bottom: 5px;
+}
+
+.geometry-button.geometry-empty-action {
+    margin-top: 16px;
+    min-height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #474064;
+    border-color: #ab9ce9;
+}

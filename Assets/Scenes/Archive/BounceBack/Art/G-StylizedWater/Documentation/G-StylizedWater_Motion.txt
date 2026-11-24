@@ -1,0 +1,3 @@
+100 frames, 960x540, 20 fps, exactly 5 seconds. Charge=0 for frames 0-15; rises over frames 16-44; ring expands then relaxes over frames 45-99.
+Waterfall and mist animate for the full five seconds. Deterministic shader time was used for reproducibility.
+Unity batchmode RenderTexture capture, not a gameplay/physics test.

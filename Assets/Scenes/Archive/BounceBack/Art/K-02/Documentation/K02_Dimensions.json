@@ -1,0 +1,112 @@
+{
+  "task": "K-02 / guide-trim subset",
+  "blender_version": "4.5.16 LTS",
+  "source_blend": "ArtSource/Kimi/K-02/K02_Guide_Trim.blend",
+  "units": "meters",
+  "unity_axes": "+Y up; +Z outward from mounting plane; X across the ornament",
+  "pivot": "Each mesh local origin is its rear mounting-face center",
+  "visual_only": true,
+  "mesh_object_count": 3,
+  "external_textures": [],
+  "contains_wall": false,
+  "contains_animation": false,
+  "contains_colliders": false,
+  "assets": {
+    "white_stone_guide_seat": {
+      "object_name": "K02_White_Stone_Guide_Seat",
+      "file": "FBX/K02_White_Stone_Guide_Seat.fbx",
+      "prefab": "Prefabs/K02_White_Stone_Guide_Seat.prefab",
+      "role_zh": "白石导轨座：低背板、双凸轨、阶梯端块；不是升降墙或完整行程导轨。",
+      "local_dimensions_m_xyz": [
+        0.3400000035762787,
+        0.5600000023841858,
+        0.11999999731779099
+      ],
+      "local_bounds_min_m_xyz": [
+        -0.17000000178813934,
+        -0.2800000011920929,
+        -0.0
+      ],
+      "local_bounds_max_m_xyz": [
+        0.17000000178813934,
+        0.2800000011920929,
+        0.11999999731779099
+      ],
+      "vertices": 193,
+      "triangles": 382,
+      "material": "K02_White_Stone",
+      "material_slots": 1,
+      "uv_layers": [
+        "UV0_SmartProject"
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "fbx_bytes": 24892
+    },
+    "cobalt_ceramic_slider_facing": {
+      "object_name": "K02_Cobalt_Ceramic_Slider_Facing",
+      "file": "FBX/K02_Cobalt_Ceramic_Slider_Facing.fbx",
+      "prefab": "Prefabs/K02_Cobalt_Ceramic_Slider_Facing.prefab",
+      "role_zh": "蓝瓷滑块饰面：八边形浅边框和三道浅凸棱；只负责表面装饰。",
+      "local_dimensions_m_xyz": [
+        0.25999999046325684,
+        0.3799999952316284,
+        0.05700000002980232
+      ],
+      "local_bounds_min_m_xyz": [
+        -0.12999999523162842,
+        -0.1899999976158142,
+        -0.0
+      ],
+      "local_bounds_max_m_xyz": [
+        0.12999999523162842,
+        0.1899999976158142,
+        0.05700000002980232
+      ],
+      "vertices": 210,
+      "triangles": 416,
+      "material": "K02_Cobalt_Ceramic",
+      "material_slots": 1,
+      "uv_layers": [
+        "UV0_SmartProject"
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "fbx_bytes": 26316
+    },
+    "brass_axle_cap": {
+      "object_name": "K02_Brass_Axle_Cap",
+      "file": "FBX/K02_Brass_Axle_Cap.fbx",
+      "prefab": "Prefabs/K02_Brass_Axle_Cap.prefab",
+      "role_zh": "黄铜轴帽：十六边外圈与八边轴头；不包含长轴、轴承或运动。",
+      "local_dimensions_m_xyz": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0860000029206276
+      ],
+      "local_bounds_min_m_xyz": [
+        -0.10000000149011612,
+        -0.10000000149011612,
+        -0.0
+      ],
+      "local_bounds_max_m_xyz": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.0860000029206276
+      ],
+      "vertices": 170,
+      "triangles": 336,
+      "material": "K02_Brass",
+      "material_slots": 1,
+      "uv_layers": [
+        "UV0_SmartProject"
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "fbx_bytes": 25260
+    }
+  }
+}
